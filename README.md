@@ -46,10 +46,10 @@ Same as given in Assignment 1.
 Learning Outcomes:  
 1. Basics of UDP socket programming.
    
-Assignment 4: 
-Objective: 
-To gain knowledge of packet capturing tools and understand header structures. 
-Exercise: 
+# Assignment 4: 
+# Objective: 
+  To gain knowledge of packet capturing tools and understand header structures. 
+# Exercise: 
 Install wireshark in a VM (Virtual Machine) environment. Draw a time diagram to 
 show the steps in the protocols recorded in the captured file (saved in the .pcap file 
 of wireshark) during a PING operation. List the L2, L3, L4 header fields that can be 
@@ -62,20 +62,20 @@ Steps/ Hints: (if any)
 Learning Outcomes:  
 1. Knowledge of packet capturing tools, protocols and headers.
    
-Assignment 5 
-Objective: 
+# Assignment 5 
+# Objective: 
 To gain knowledge of more packet capturing tools. 
-Exercise: 
+# Exercise: 
 Learn and use maximum number of packet generation tools.  
 Steps/ Hints: (if any) 
 1. Install Iperf, D-ITG etc. and send traffic among mininet hosts. 
 Learning Outcomes:  
 1. Knowledge of packet generation and capturing tools. 
 
-Assignment 6 
-Objective: 
+# Assignment 6 
+# Objective: 
 To gain knowledge of more TCP/IP C libraries. 
-Exercise: 
+# Exercise: 
 Develop a simple C based network simulator to analyze TCP traffic.  
 Steps/ Hints: (if any) 
 1. Use TCP/IP based C libraries including socket to listen to the incoming packets at 
@@ -84,10 +84,10 @@ the Ethernet port.
 Learning Outcomes:  
 1. Knowledge of TCP/IP libraries. 
 
-Assignment 7: 
-Objective: 
+# Assignment 7: 
+# Objective: 
 Client server communication with UDP packets 
-Exercise: 
+# Exercise: 
 Write UDP client server socket program where client sends one/two number(s) 
 (integer or floating point) to server and a scientific calculator operation (like 
 sin,cos,*,/, inv etc.) and server responds with the result after evaluating the value of 
@@ -102,10 +102,10 @@ answer to the client.
 Learning Outcomes:  
 1. Understanding reliability of UDP for transactions. 
 
-Assignment 8: 
-Objective: 
+# Assignment 8: 
+# Objective: 
 Using Thread library and TCP sockets.  
-Exercise: 
+# Exercise: 
 Write a program in C using thread library and TCP sockets to build a chat server 
 which enable clients communicating to each other through the chat server. Message 
 logs must be maintained in the server in a text file. Each client will see the 
@@ -127,10 +127,10 @@ Conversations will be fetched to all the clients automatically.
 Learning Outcomes:  
 1. Understanding multi-threading for TCP sockets. 
 
-Assignment 9: 
-Objective: 
+# Assignment 9: 
+# Objective: 
 File upload and download using TCP. 
-Exercise: 
+# Exercise: 
 Write a client server socket program in TCP for uploading and downloading files 
 between two different hosts. Also calculate the transfer time in both the cases. 
 Steps/ Hints: (if any) 
@@ -144,10 +144,10 @@ client and server side.
 Learning Outcomes:  
 1. Use of TCP for file transfer. 
 
-Assignment 10: 
-Objective: 
+# Assignment 10: 
+# Objective: 
 Using RAW sockets to generate packets. 
-Exercise: 
+# Exercise: 
 Write two C programs using raw socket to send i. TCP packet where TCP payload 
 will contain your roll number. ii. ICMP time stamp messages towards a target IP.  
 Steps/ Hints: (if any) 
@@ -158,10 +158,10 @@ Learning Outcomes:
 1. Use of RAW socket to create custom TCP and ICMP messages. 
 2. Use of RAW socket for packet generation. 
 
-Assignment 11: 
-Objective: 
+# Assignment 11: 
+# Objective: 
 Using RAW sockets to generate TCP flooding attack. 
-Exercise: 
+# Exercise: 
 Write a RAW socket program to generate TCP SYN flood based DDoS attack 
 towards an IP address. Take four mininet hosts as agent devices.  
 Steps/ Hints: (if any) 
@@ -172,10 +172,10 @@ Learning Outcomes:
 1. Use of RAW sockets to generate SYN based flooding attack. 
 2. Understanding the pattern of TCP control messages for DDoS attack. 
 
-Assignment 12: 
-Objective: 
+# Assignment 12: 
+# Objective: 
 Using RAW sockets to generate ICMP flooding attack. 
-Exercise: 
+# Exercise: 
 Do the same attack as given in assignment no. 11 with ICMP packets using RAW 
 socket?  
 Steps/ Hints: (if any) 
@@ -186,10 +186,10 @@ Learning Outcomes:
 1. Use of RAW sockets to generate ICMP based flooding attack. 
 2. Understanding the pattern of ICMP communication for DDoS attack. 
 
-Assignment 13: 
-Objective: 
+# Assignment 13: 
+# Objective: 
 To learn packet capturing and analysis. 
-Exercise: 
+# Exercise: 
 Create a binary tree topology with 7 switches in mininet. Capture packets at the root 
 switch. Write a C program to extract the headers and draw a time diagram to show 
 the protocols displayed in the captured file (save the .pcap/.pcapng file of 
@@ -207,10 +207,10 @@ Learning Outcomes:
 1. Learning to analyze packets and its corresponding protocols. 
 2. Learning the roles of L2/L3/L4 protocols for a communication. 
 
-Assignment 14: 
-Objective: 
+# Assignment 14: 
+# Objective: 
 Creating customized topologies in mininet. 
-Exercise: 
+# Exercise: 
 Create a custom leaf-spine topology in mininet using python which can be scaled 
 with increasing switch radix. 
 Steps/ Hints: (if any) 
