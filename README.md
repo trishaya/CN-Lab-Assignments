@@ -7,7 +7,7 @@ says “Hi” and in response server says “Hello”.
 <img width="1620" height="614" alt="1" src="https://github.com/user-attachments/assets/a7e00de3-ae7b-4fbf-aba7-11376eaed8be" />  
 # CN Lab – Assignment 2 
 # Exercise: 
-Write a program using TCP socket to implement the following:  
+ Write a program using TCP socket to implement the following:  
 i. Server maintains records of fruits in the format: fruit-name, quantity Last-sold, 
 (server timestamp),  
 ii. Multiple client purchase the fruits one at a time, 
@@ -19,7 +19,7 @@ list should be updated in the server every time a transaction occurs.
 vi. The total number of unique customers who did some transaction will be 
 displayed to the customer every time. 
 # SS
-<img width="1064" height="397" alt="image" src="https://github.com/user-attachments/assets/7ce9998a-7a7f-4b3a-88e6-23fc7e8643c0" />
+ <img width="1064" height="397" alt="image" src="https://github.com/user-attachments/assets/7ce9998a-7a7f-4b3a-88e6-23fc7e8643c0" />
 
 # CN Lab – Assignment 3  
 # Exercise: 
